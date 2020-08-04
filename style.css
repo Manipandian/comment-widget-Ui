@@ -1,0 +1,39 @@
+body {
+    /* background-color: red; */
+}
+
+.main-container {
+    display: flex;
+    /* align-items: center; */
+    justify-content: flex-start;
+}
+
+.main-container #main-content {
+    border: 1px solid black;
+    /* position: relative; */
+    width: 500px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+#main-content::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
+
+#content {
+    /* height: 200px; */
+}
+
+#comments button {
+    font-size: 10px;
+}
+
+.user-data {
+    font-weight: bold;
+}
+
+.description {
+    font-size: smaller;
+    font-weight: 500;
+}
