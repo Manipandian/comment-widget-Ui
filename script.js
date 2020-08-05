@@ -6,45 +6,7 @@ let currentCommentId = "";
 
 // Sample comment data
 let data = [
-  {
-    id: "0",
-    mainComment: "Mani, Nature always looks beautiful. Its a eyr refreshing thing. Thanks for the colorful one",
-    subComment: [
-      {
-        id: "0-0",
-        mainComment: "Affronting everything discretion men now own did",
-        subComment: [
-          {
-            id: "0-0-0",
-            mainComment: "Still round match we to. Frankness pronounce daughters remainder extensive has but. Happiness cordially one determine concluded fat",
-            subComment: [],
-          },
-          {
-            id: "0-0-1",
-            mainComment: "Plenty season beyond by hardly giving of. Consulted or acuteness dejection an smallness if. Outward general passage another as it. Very his are come man walk one next",
-            subComment: [],
-          },
-        ],
-      },
-    ],
-  },
-  {
-    id: "1",
-    mainComment: "Divya, Nature is always looks beautiful. Its a eyr refreshing thing. Thanks for the colorful one",
-    subComment: [
-      {
-        id: "1-0",
-        mainComment: "Two exquisite objection delighted deficient yet its contained",
-        subComment: [
-          {
-            id: "1-0-0",
-            mainComment: "Cordial because are account evident its subject but eat.",
-            subComment: [],
-          },
-        ],
-      },
-    ],
-  },
+
 ];
 
 // Comment template contain comment text and buttons
